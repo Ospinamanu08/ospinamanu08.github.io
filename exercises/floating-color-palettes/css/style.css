@@ -3,6 +3,53 @@
 }
 
 body {
-    margin: 0px;
-    font-family: sans-serif;
+margin: 0px;
+font-family: sans-serif;
+}
+
+.swatch{
+background-color: rgb(234, 227, 219);
+margin: 24px;
+padding: 24px;
+text-align: center;
+box-shadow: 5px 5px 10px;
+}
+
+.swatches{
+ padding: 20px;
+}
+
+.swatch-1{
+background: linear-gradient(90deg #5F9C32, #FFFFD0);
+}
+.white{
+ color: white;
+}
+
+#swatch-1{
+ background: linear-gradient();
+}
+
+#swatch1-1{
+background-color: #001F00;
+}
+
+#swatch1-2{
+background-color: #264a17;
+}
+
+#swatch1-3{
+background-color: #4f7a28;
+}
+
+#swatch1-4{
+background-color: #85b15b;
+}
+
+#swatch1-5{
+background-color: #beeb91;
+}
+
+h4{
+ margin: 0px;
 }
