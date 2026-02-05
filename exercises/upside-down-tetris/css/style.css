@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container{
+    width: 500px;
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.red{
+    background-color: red;
+    border: 20px outset lightcoral
+}
+
+.blue{
+    background-color: blue;
+    border: 20px outset lightblue
+}
+
+.yellow{
+    background-color: yellow;
+    border: 20px outset lightgoldenrodyellow
+}
+
+.green {
+    background-color: greenyellow;
+    border: 20px outset lightgreen
+}
