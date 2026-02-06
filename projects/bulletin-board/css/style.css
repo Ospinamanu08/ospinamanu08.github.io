@@ -6,3 +6,48 @@
 
     Good luck, and have fun!
 */
+#bulletin-board {
+    background-image: url('../images/corkboard.jpg');
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.post-it {
+    background-color: #42c8b7; 
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 15px;
+    font-family: 'Comic Sans MS', cursive; 
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.3); 
+}
+
+
+.post-it img {
+    max-width: 100%;
+    height: auto;
+}
+
+.yellow {
+    background-color: #ffff88; 
+}
+
+.pink {
+    background-color: #ffc0cb; 
+}
+
+.blue {
+    background-color: #add8e6; 
+}
+
+.green {
+    background-color: #98fb98; 
+}
+
+
