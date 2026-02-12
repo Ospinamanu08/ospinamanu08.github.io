@@ -1,8 +1,36 @@
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    font-family: sans-serif;
+margin: 0px;
+font-family: sans-serif;
+}
+
+#sidebar {
+background-color: #333333; 
+color: white;               
+width: 500px;              
+min-height: 100vh;         
+padding: 24px;             
+}
+
+#sidebar .chapter {
+font-weight: bold;         
+font-size: 24px;           
+}
+
+#sidebar .edit {
+color: orange;            
+font-style: italic;        
+}
+
+#sidebar .chapter.edit {
+color: red;               
+}
+
+#sidebar .table-title {
+border-bottom: 1px solid white;
+padding-bottom: 5px;
+font-size: 18px;
 }
