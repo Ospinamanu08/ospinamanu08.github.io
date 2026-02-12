@@ -6,3 +6,40 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#morning, #afternoon, #evening {
+    border: 2px solid #9f9e9e;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#morning { background-color: #fff2a0; }
+#afternoon { background-color: #fe98fd; }
+#evening { background-color: #fbe2ff; 
+}
+
+#morning .completed, #afternoon .completed, #evening .completed {
+    text-decoration: line-through;
+}
+
+#morning .important, #afternoon .important, #evening .important {
+    font-weight: bold;
+    color: #a9021e;
+}
+
+
+#evening .completed.important {
+    background-color: rgb(250, 250, 168);
+}
+
+
+#morning .button, #afternoon .button, #evening .button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #dba5fc;
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    margin-left: 10px;
+}
