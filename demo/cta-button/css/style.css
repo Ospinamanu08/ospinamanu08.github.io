@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.cta-button {
+  background-color: #FF6B6B; 
+  color: white;             
+  padding: 15px 30px;      
+  font-size: 20px;         
+  font-weight: bold;       
+  border: none;             
+  border-radius: 50px;     
+  cursor: pointer;
+}
+
+
+.cta-button:hover {
+  background-color: #FF8787; 
+  transform: scale(1.05);    
+}
