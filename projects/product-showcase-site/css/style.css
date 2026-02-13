@@ -32,9 +32,9 @@ h2 {
 .main-heading { font-size: 3rem; margin: 20px 0; }
 .section-heading { font-size: 2rem; margin-bottom: 20px; }
 
-.yellow-section { background-color: #ffdd03; color: #ffffff; }
-.blue-section { background-color: #0118e5; color: #ffffff; }
-.red-section { background-color: #e20101; color: #ffffff; }
+.yellow-section { background-color: #ffdd03; color: #fcedbc; }
+.blue-section { background-color: #0118e5; color: #8181f2; }
+.red-section { background-color: #e20101; color: #f18d8d; }
 
 .product-img {
     max-width: 100%;
