@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, #c5e8ff, #f4b5b5);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1 { 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 3.5rem; 
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+h2 { font-size: 2rem; margin: 10px 0; } 
+h3 { font-size: 1.5rem; color: #3a3a3a; } 
+p { font-size: 1.1rem; color: #000000; }  
+
+.matchup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.team img {
+    width: 200px; 
+    object-fit: contain;
+}
+
+.vs {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #840000;
+}
+
+.rsvp-actions {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.btn-yes {
+    background-color: #08129f;
+    color: white;
+}
+
+.btn-no {
+    background-color: #9e0000;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
